@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  build: {
-    sourcemap: 'inline',
-    minify: false,
-  },
+  // build: {
+  //   sourcemap: 'inline',
+  //   minify: false,
+  // },
   server: {
     sourcemap: "inline",
     minify: false,
