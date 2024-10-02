@@ -1,0 +1,20 @@
+{
+  "name": "audio-chunk",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "develop": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "postinstall": "./post-install.sh"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@ricky0123/vad-web": "^0.0.18",
+    "bootstrap": "^5.3.3"
+  }
+}
