@@ -11,7 +11,7 @@ export default defineConfig({
   },
   plugins: [
     {
-      name: 'custom-rewrite-middleware',
+      name: 'rewrite-ort-files-path-middleware',
       configureServer(server) {
         // Add custom middleware
         server.middlewares.use((req, res, next) => {
