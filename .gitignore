@@ -1,5 +1,7 @@
 node_modules
 
+dist
+
 public/silero_vad.onnx
 public/vad*
 public/assets/ort-*
